@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "titulo": "Lazarus",
+      "descripcion": "Serie de acción y ciencia ficción ambientada en 2052, donde un equipo especial debe salvar a la humanidad de una droga letal.",
+      "rate": 4.8,
+      "video_url": "https://www.youtube.com/watch?v=trailer_lazarus",
+      "imagen_url": "https://m.media-amazon.com/images/M/MV5BZDQxY2E4ZTYtYjA2ZS00Yzc2LWE4ZjEtYmI5MWU3YjQwNjYxXkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Kimetsu no Yaiba: La Fortaleza Infinita",
+      "descripcion": "Primera parte de la trilogía final que concluye la historia de Tanjiro y sus amigos en su lucha contra los demonios.",
+      "rate": 4.9,
+      "video_url": "https://www.youtube.com/watch?v=trailer_kimetsu",
+      "imagen_url": "https://a.storyblok.com/f/178900/1064x1506/fc9a3dd5e8/demon-slayer-castillo-infinito.jpg/m/filters:quality(95)format(webp)"
+    },
+    {
+      "id": 3,
+      "titulo": "Dragon Ball Daima",
+      "descripcion": "Nueva serie de Dragon Ball que sigue a Goku y sus amigos transformados en versiones más jóvenes enfrentando nuevas amenazas.",
+      "rate": 4.7,
+      "video_url": "https://www.youtube.com/watch?v=trailer_daima",
+      "imagen_url": "https://i.pinimg.com/736x/dd/85/ab/dd85ab6b8242517d7390017d5601fb67.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "Witch Watch",
+      "descripcion": "Serie que sigue las aventuras de una joven bruja y su guardaespaldas en un mundo lleno de magia y misterio.",
+      "rate": 4.5,
+      "video_url": "https://www.youtube.com/watch?v=trailer_witch_watch",
+      "imagen_url": "https://upload.wikimedia.org/wikipedia/en/c/c3/Witch_Watch_volume_1_cover.png"
+    },
+    {
+      "id": 5,
+      "titulo": "Mobile Suit Gundam GQuuuuuX: Beginning",
+      "descripcion": "Nueva entrega de la franquicia Gundam que presenta una línea temporal alternativa con emocionantes batallas de mechas.",
+      "rate": 4.6,
+      "video_url": "https://www.youtube.com/watch?v=trailer_gundam",
+      "imagen_url": "https://m.media-amazon.com/images/M/MV5BMzVhMWVmZjMtZTQyYS00MzAwLWE2MzEtZTA4MDg2MGYyYzVmXkEyXkFqcGc@._V1_.jpg"
+    }
+  ]
+  
