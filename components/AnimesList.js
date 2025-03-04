@@ -1,9 +1,10 @@
 import { View, Text, FlatList, Image, TouchableOpacity, StatusBar } from "react-native";
 import React from "react";
 import animes from "../data/animes.json";
+import {useNavigation} from '@react-navigation/native'
 
 const AnimesList = () => {
-    //console.log(peliculas); // Asegúrate de que tiene datos
+    const navigation = useNavigation()
   return (
     <View className="px-4 space-y-2 mb-4">
       <StatusBar barStyle="light-content" />
@@ -14,7 +15,7 @@ const AnimesList = () => {
         showsHorizontalScrollIndicator={false}
         keyExtractor={(item) => item.id.toString()}
         renderItem={({ item }) => (
-          <TouchableOpacity className="mr-4">
+          <TouchableOpacity className="mr-4" onPress={()=>navigation.navigate('Detail', {content:item})}>
             <Image
               source={{ uri: item.imagen_url }}
               className="w-32 h-60 rounded-lg"
