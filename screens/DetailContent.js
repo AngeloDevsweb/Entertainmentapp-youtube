@@ -3,6 +3,7 @@ import React from 'react';
 import {useRoute} from '@react-navigation/native'
 import YoutubeIframe from 'react-native-youtube-iframe'
 import {useState} from 'react'
+import { Icon } from '@rneui/themed';
 
 const DetailContent = () => {
     const route = useRoute()
@@ -39,13 +40,19 @@ const DetailContent = () => {
         <YoutubeIframe
           videoId={content.video_url}
           width={'100%'}
-          height={250}
+          height={210}
           onReady={() => setIsLoading(false)} // Oculta el spinner cuando el video está listo
         />
       </View>
 
-    <View>
-        <Text className="text-gray-300 font-bold">{content.rate}</Text>
+    <View className="flex-row justify-start mt-1">
+        <Icon
+            name='star'
+            type='ionicon'
+            color='#dbe10b'
+            className="ml-4"
+        />
+        <Text className="text-gray-300 font-bold text-2xl mb-2">{content.rate}</Text>
     </View>
 
 
